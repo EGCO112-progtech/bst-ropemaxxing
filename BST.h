@@ -100,6 +100,7 @@ void postOrder(TreeNodePtr treePtr){
    }
 }
 
+
 void printTree(TreeNodePtr treePtr,int x){
    int i;
    if(treePtr!=NULL){

@@ -41,6 +41,7 @@ void insertNode( BST *b, int value ){
 		new_node->leftPtr=NULL;
 		new_node->rightPtr=NULL;
 		new_node->data=value;
+   }
 		/*First Node*/
 		if(!b->root)/*b->root!=NULL*/	b->root=new_node;
 		else {
@@ -70,9 +71,7 @@ while(!inserted){//loop continue as long as inserted=0
   }//end while		
   }//end else;
   b->size++;
-  }
-  
-}//end function
+  }//end function
 
 
 void inOrder( TreeNodePtr treePtr )

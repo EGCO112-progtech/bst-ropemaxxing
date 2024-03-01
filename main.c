@@ -25,7 +25,8 @@ for ( i = 1; i < argc; ++i ) {
    printf("\npostOrder\n" );   
    postOrder( b.root );
    
-   printf("\nTree\n");
+   printf("\nTree :\n");
    printTree(b.root,0);
+   printf("\n");
 } // end main
 
